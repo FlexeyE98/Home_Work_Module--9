@@ -35,7 +35,8 @@ namespace Task2
             }
         }
 
-        public static void Sorting(List<string> families, int number)
+        public static void Sorting(List<string> families, int number)         //Не уверен, что сортировку правильно делать в один метод. Хотел сделать в два
+                                                                              //но как и писал выше не понимаю как их вызвать по отдельности через Invoke(), только если через новый экземпляр...
         {
             if (number == 1)
             {
